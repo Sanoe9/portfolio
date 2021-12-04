@@ -4,7 +4,9 @@ function Contact() {
 
     return (
         <div>
-            Contact
+            <h3>
+                GET IN TOUCH
+            </h3>
         </div>
     );
 }
