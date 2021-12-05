@@ -8,7 +8,7 @@ import Projects from './components/Projects.jsx';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Banner />
       <Intro />
       <Projects />

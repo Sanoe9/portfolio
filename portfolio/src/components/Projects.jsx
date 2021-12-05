@@ -9,17 +9,22 @@ function Projects() {
                 PROJECTS
             </h3>
             {projects.map((project) => (
-                <div>
-                    <h5>
-                        {project.name}
-                    </h5>
-                    <div>
-                        {project.description}
+                <div className="">
+                    <div className="one_flex">
+                        {project.gif}hi
                     </div>
-                    <div>
-                        {project.technologies.map((technology) => (
-                            <div>{technology}</div>
-                        ))}
+                    <div className="two_flex">
+                        <h5>
+                            {project.name}
+                        </h5>
+                        <div>
+                            {project.description}
+                        </div>
+                        <div>
+                            {project.technologies.map((technology) => (
+                                <div>{technology}</div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             ))}
