@@ -1,5 +1,6 @@
 import React from 'react';
-import projects from '../data/projects.js';
+import projects from '../../data/projects.js';
+import './Projects.css';
 
 function Projects() {
 
@@ -9,9 +10,9 @@ function Projects() {
                 PROJECTS
             </h3>
             {projects.map((project) => (
-                <div className="">
+                <div className="project">
                     <div className="one_flex">
-                        {project.gif}hi
+                        GIF HERE
                     </div>
                     <div className="two_flex">
                         <h5>
@@ -20,7 +21,7 @@ function Projects() {
                         <div>
                             {project.description}
                         </div>
-                        <div>
+                        <div className="project_techs">
                             {project.technologies.map((technology) => (
                                 <div>{technology}</div>
                             ))}

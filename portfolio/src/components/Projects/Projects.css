@@ -1,0 +1,8 @@
+.project {
+  display: flex;
+  border-style: solid;
+}
+
+.project_techs {
+  display: flex;
+}
