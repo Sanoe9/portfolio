@@ -8,7 +8,7 @@ function TechStack() {
             <h3>
                 TECHSTACK
             </h3>
-            <div>
+            <div className="techs">
                 {techstack.map((element) => (
                     <div>{element}</div>
                 ))}

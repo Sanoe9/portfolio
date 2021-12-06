@@ -5,7 +5,7 @@ import './Projects.css';
 function Projects() {
 
     return (
-        <div>
+        <div className="projects">
             <h3>
                 PROJECTS
             </h3>
@@ -21,7 +21,7 @@ function Projects() {
                         <div>
                             {project.description}
                         </div>
-                        <div className="project_techs">
+                        <div className="techs">
                             {project.technologies.map((technology) => (
                                 <div>{technology}</div>
                             ))}

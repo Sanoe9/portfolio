@@ -1,8 +1,5 @@
 .project {
   display: flex;
   border-style: solid;
-}
-
-.project_techs {
-  display: flex;
+  padding: 2em;
 }
