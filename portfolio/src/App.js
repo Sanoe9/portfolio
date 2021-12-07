@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import Banner from './components/Banner.jsx';
-import Intro from './components/Intro.jsx';
+import Banner from './components/Banner/Banner.jsx';
+import Intro from './components/Intro/Intro.jsx';
 import TechStack from './components/TechStack.jsx';
 import Contact from './components/Contact.jsx';
 import Projects from './components/Projects/Projects.jsx';

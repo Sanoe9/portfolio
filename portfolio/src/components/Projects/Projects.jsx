@@ -1,11 +1,12 @@
 import React from 'react';
 import projects from '../../data/projects.js';
 import './Projects.css';
+import { FaCode } from 'react-icons/fa';
 
 function Projects() {
 
     return (
-        <div className="projects">
+        <div className="projects" >
             <h3>
                 PROJECTS
             </h3>
@@ -18,14 +19,17 @@ function Projects() {
                         <h5>
                             {project.name}
                         </h5>
-                        <div className="project_description">
+                        <div className="space_vertical">
                             {project.description}
                         </div>
-                        <div className="techs">
+                        <div className="techs space_vertical">
                             {project.technologies.map((technology) => (
                                 <div className="project_tech">{technology}</div>
                             ))}
                         </div>
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                            <FaCode className="source_code" />
+                        </a>
                     </div>
                 </div>
             ))}

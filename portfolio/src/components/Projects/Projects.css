@@ -2,7 +2,7 @@
   display: flex;
   border: 2px solid;
   border-radius: 25px;
-  padding: 2em;
+  padding: 1em;
   margin-bottom: 1em;
 }
 
@@ -18,4 +18,10 @@
 
 .project_description {
   overflow: hidden;
+}
+
+.source_code {
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 0.3em;
 }

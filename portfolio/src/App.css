@@ -34,3 +34,7 @@
   flex-wrap: wrap;
   /* margin-bottom: 0.2em; */
 }
+
+.space_vertical {
+  margin-bottom: 1em;
+}
