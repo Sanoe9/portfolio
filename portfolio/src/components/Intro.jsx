@@ -15,6 +15,9 @@ function Intro() {
                 <div>
                     {intro.introBody}
                 </div>
+                <a href={intro.resume} target="_blank" rel="noopener noreferrer">
+                    <button type="button">Resume</button>
+                </a>
             </div>
         </div>
     );

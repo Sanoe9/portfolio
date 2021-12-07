@@ -23,7 +23,7 @@ function Projects() {
                         </div>
                         <div className="techs">
                             {project.technologies.map((technology) => (
-                                <div>{technology}</div>
+                                <div className="project_tech">{technology}</div>
                             ))}
                         </div>
                     </div>

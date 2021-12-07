@@ -1,5 +1,15 @@
 .project {
   display: flex;
-  border-style: solid;
+  border: 2px solid;
+  border-radius: 25px;
   padding: 2em;
+  margin-bottom: 1em;
+}
+
+.project_tech {
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 0.2em;
+  /* width: 1em;
+  height: 2em; */
 }
