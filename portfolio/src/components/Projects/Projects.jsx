@@ -18,7 +18,7 @@ function Projects() {
                         <h5>
                             {project.name}
                         </h5>
-                        <div>
+                        <div className="project_description">
                             {project.description}
                         </div>
                         <div className="techs">
