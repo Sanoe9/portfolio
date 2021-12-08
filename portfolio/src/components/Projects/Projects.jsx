@@ -6,12 +6,12 @@ import { FaCode } from 'react-icons/fa';
 function Projects() {
 
     return (
-        <div className="projects" >
+        <div className="projects" id="projects" >
             <h3>
                 PROJECTS
             </h3>
-            {projects.map((project) => (
-                <div className="project">
+            {projects.map((project, key) => (
+                <div className="project" key={key}>
                     <div className="one_flex">
                         GIF HERE
                     </div>
@@ -23,8 +23,8 @@ function Projects() {
                             {project.description}
                         </div>
                         <div className="techs space_vertical">
-                            {project.technologies.map((technology) => (
-                                <div className="project_tech">{technology}</div>
+                            {project.technologies.map((technology, key) => (
+                                <div className="project_tech" key={key}>{technology}</div>
                             ))}
                         </div>
                         <a href={project.github} target="_blank" rel="noopener noreferrer">

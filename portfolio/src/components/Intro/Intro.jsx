@@ -7,7 +7,7 @@ function Intro() {
     return (
         <div id="intro" >
             <div id="my_pic" className="one_flex">
-                my picture here
+                <img src={intro.introPic} />
             </div>
             <div id="intro_text" className="two_flex">
                 <div className="space_vertical">

@@ -6,7 +6,7 @@ import contact from '../../data/contact.js';
 
 function Contact() {
     return (
-        <div>
+        <div id="contact">
             <h3>
                 GET IN TOUCH
             </h3>

@@ -5,13 +5,13 @@ import './TechStack.css';
 function TechStack() {
 
     return (
-        <div>
+        <div id="tech_stack">
             <h3>
                 TECHSTACK
             </h3>
             <div className="techs">
-                {techstack.map((element) => (
-                    <div className="tech">{element}</div>
+                {techstack.map((element, key) => (
+                    <div className="tech" key ={key}>{element}</div>
                 ))}
             </div>
         </div>
