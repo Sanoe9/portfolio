@@ -1,5 +1,6 @@
 import React from 'react';
-import techstack from '../data/techstack.js';
+import techstack from '../../data/techstack.js';
+import './TechStack.css';
 
 function TechStack() {
 
@@ -10,7 +11,7 @@ function TechStack() {
             </h3>
             <div className="techs">
                 {techstack.map((element) => (
-                    <div>{element}</div>
+                    <div className="tech">{element}</div>
                 ))}
             </div>
         </div>
