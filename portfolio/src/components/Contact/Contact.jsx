@@ -5,7 +5,6 @@ import './Contact.css';
 import contact from '../../data/contact.js';
 
 function Contact() {
-
     return (
         <div>
             <h3>
@@ -18,7 +17,7 @@ function Contact() {
                     </a>         
                 </div>
                 <div className="contact" >
-                    <a className="space_vertical" href={contact.email} target="_blank" rel="noopener noreferrer">
+                    <a className="space_vertical" href={`mailto: ${contact.email}`} target="_blank" rel="noopener noreferrer">
                         <MdEmail /> Email
                     </a>           
                 </div>
