@@ -24,3 +24,10 @@
   border-radius: 25px;
   padding: 0.3em;
 }
+
+.gif {
+  width: 20em;
+  height: 15em;
+  border-radius: 25px;
+  margin-top: 2.5em;
+}

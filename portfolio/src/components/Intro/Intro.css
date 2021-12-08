@@ -3,3 +3,13 @@
   border-radius: 25px;
   padding: 0.3em;
 }
+
+#my_pic {
+  width: 20em;
+  height: 20em;
+  border-radius: 170px;
+}
+
+#intro_text {
+  padding-top: 4.5em;
+}

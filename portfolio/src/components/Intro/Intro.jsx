@@ -3,11 +3,11 @@ import intro from '../../data/introduction.js';
 import './Intro.css';
 
 function Intro() {
-
+    console.log(intro.introPic)
     return (
         <div id="intro" >
-            <div id="my_pic" className="one_flex">
-                <img src={intro.introPic} />
+            <div className="one_flex">
+                <img id="my_pic" alt="My Picture" src="./myPic.jpg" />
             </div>
             <div id="intro_text" className="two_flex">
                 <div className="space_vertical">

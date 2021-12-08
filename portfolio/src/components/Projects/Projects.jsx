@@ -13,7 +13,7 @@ function Projects() {
             {projects.map((project, key) => (
                 <div className="project" key={key}>
                     <div className="one_flex">
-                        GIF HERE
+                        <img className= "gif" alt="Demo" src={`./${project.name}.gif`} />
                     </div>
                     <div className="two_flex">
                         <h5>
