@@ -13,17 +13,26 @@ function Contact() {
             <div className="contacts">
                 <div className="contact" >
                     <a className="space_vertical" href={contact.github} target="_blank" rel="noopener noreferrer">
-                        <FaGithub /> Github
+                        <FaGithub className="icon" />
+                        <span>
+                            Github
+                        </span>
                     </a>         
                 </div>
                 <div className="contact" >
                     <a className="space_vertical" href={`mailto: ${contact.email}`} target="_blank" rel="noopener noreferrer">
-                        <MdEmail /> Email
+                        <MdEmail className="icon" /> 
+                        <span>
+                            Email
+                        </span>
                     </a>           
                 </div>
                 <div className="contact" >
                     <a className="space_vertical" href={contact.linkedin} target="_blank" rel="noopener noreferrer">
-                        <FaLinkedinIn /> LinkedIn
+                        <FaLinkedinIn className="icon" />
+                        <span>
+                            LinkedIn
+                        </span>
                     </a>
                 </div>       
             </div>

@@ -1,11 +1,37 @@
 .contact {
-  border: 2px solid;
+  border: 2px solid #000000;
   border-radius: 25px;
   padding: 0.3em;
   margin-left: 0.5em;
+  background-color: #000000;
+}
+
+.contact:hover {
+  background-color: #f2a68d;
+}
+
+.contact:hover span {
+  color: #000000;
+}
+
+.contact:hover .icon {
+  color: #000000;
 }
 
 .contacts {
   display: flex;
   justify-content: center;
 }
+
+.icon {
+  color: #ffffff;
+}
+
+span {
+  color: #ffffff;
+  padding-left: 0.4em;
+}
+
+/* span:hover {
+  color: #000000;
+} */
