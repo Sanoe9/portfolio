@@ -1,6 +1,7 @@
 .topIntro {
   font-family: "Dancing Script", cursive;
   font-weight: 700;
+  font-size: 1.5em;
 }
 
 .btn {
@@ -12,11 +13,14 @@
   font-weight: 500;
   font-size: 0.9rem;
   transition: transform 0.2s ease-in-out;
+  font-family: "Gothic A1", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .btn:hover {
-  background-color: tomato;
-  color: violet;
+  background-color: #f2a68d;
+  color: #000000;
 }
 
 #my_pic {

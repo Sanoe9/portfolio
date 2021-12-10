@@ -21,15 +21,17 @@
 }
 
 .source_code {
-  border: 2px solid;
   border-radius: 25px;
   padding: 0.3em;
   transition: all 0.2s ease-in-out;
+  border: 2px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .source_code:hover {
-  background-color: tomato;
-  color: aliceblue;
+  background-color: #f2a68d;
+  color: #000000;
 }
 
 .WeeCubs_gif {
@@ -51,4 +53,8 @@
   height: 15em;
   border-radius: 25px;
   /* margin-top: 3%; */
+}
+
+.rubrique {
+  letter-spacing: 3px;
 }
