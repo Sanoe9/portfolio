@@ -1,5 +1,6 @@
 .project {
   display: flex;
+  align-items: center;
   border: 2px solid;
   border-radius: 25px;
   padding: 1em;
@@ -23,18 +24,31 @@
   border: 2px solid;
   border-radius: 25px;
   padding: 0.3em;
+  transition: all 0.2s ease-in-out;
+}
+
+.source_code:hover {
+  background-color: tomato;
+  color: aliceblue;
 }
 
 .WeeCubs_gif {
   width: 20em;
   height: 15em;
   border-radius: 25px;
-  margin-top: 2.5em;
+  /* margin-top: 2.5em; */
 }
 
 .Leaft_gif {
   width: 15em;
   height: 23em;
   border-radius: 25px;
-  margin-top: 0.5em;
+  /* margin-top: 0.5em; */
+}
+
+.Atelier_gif {
+  width: 25em;
+  height: 15em;
+  border-radius: 25px;
+  /* margin-top: 3%; */
 }

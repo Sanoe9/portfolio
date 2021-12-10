@@ -1,3 +1,8 @@
 .space_horiz {
   margin-left: 0.7em;
 }
+
+.clickable:hover {
+  color: tomato;
+  text-decoration: underline;
+}

@@ -10,8 +10,10 @@ function Intro() {
                 <img id="my_pic" alt="My Picture" src="./myPic.jpg" />
             </div>
             <div id="intro_text" className="two_flex">
-                <div className="space_vertical">
-                    {intro.introTitle}
+                <div className="space_vertical topIntro">
+                    <h2>
+                        {intro.introTitle}
+                    </h2>
                 </div>
                 <div className="space_vertical">
                     {intro.introBody}
