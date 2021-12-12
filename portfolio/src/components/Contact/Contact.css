@@ -30,6 +30,10 @@
 span {
   color: #ffffff;
   padding-left: 0.4em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
 }
 
 /* span:hover {
