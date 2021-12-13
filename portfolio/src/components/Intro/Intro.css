@@ -16,6 +16,12 @@
   font-family: "Gothic A1", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
+
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
 }
 
 .btn:hover {

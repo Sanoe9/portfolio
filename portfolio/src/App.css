@@ -19,7 +19,8 @@
 
 .one_flex {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  justify-content: center;
   flex: 1;
 }
 
@@ -39,19 +40,43 @@
 }
 
 .clickable {
+  display: inline-block;
+  position: relative;
   cursor: pointer;
   color: #000000;
   font-weight: 700;
   font-size: 0.9rem;
-  transition: transform 0.2s ease-in-out;
   font-family: "Gothic A1", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
+
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.clickable:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f2a68d;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.clickable:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .clickable:hover {
   color: #f2a68d;
-  text-decoration: underline;
 }
 
 a {
