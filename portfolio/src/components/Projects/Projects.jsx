@@ -7,7 +7,7 @@ function Projects() {
 
     return (
         <div className="projects" id="projects" >
-            <h3 className="rubrique">
+            <h3>
                 PROJECTS
             </h3>
             {projects.map((project, key) => (

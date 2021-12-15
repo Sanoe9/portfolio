@@ -96,3 +96,12 @@ a {
   text-decoration: none;
   color: black;
 }
+
+h3 {
+  letter-spacing: 3px;
+  background-image: linear-gradient(120deg, #f2a68d 0%, #c09d92 100%);
+  background-repeat: no-repeat;
+  background-size: 9% 0.3em;
+  background-position: 50% 88%;
+  transition: background-size 0.25s ease-in;
+}
