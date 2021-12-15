@@ -24,7 +24,7 @@ function Projects() {
                         </div>
                         <div className="techs space_vertical">
                             {project.technologies.map((technology, key) => (
-                                <div className="project_tech" key={key}>{technology}</div>
+                                <div className="tech" key={key}>{technology}</div>
                             ))}
                         </div>
                         <a href={project.github} target="_blank" rel="noopener noreferrer">

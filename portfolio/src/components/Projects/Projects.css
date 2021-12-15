@@ -13,15 +13,6 @@
   /* background-color: #f2a68d; */
 }
 
-.project_tech {
-  border: 2px solid;
-  border-radius: 25px;
-  padding: 0.2em;
-  margin-left: 0.3em;
-  margin-bottom: 0.3em;
-  justify-self: center;
-}
-
 .project_description {
   overflow: hidden;
 }

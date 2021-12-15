@@ -36,6 +36,18 @@
   /* margin-bottom: 0.2em; */
 }
 
+.tech {
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 0.2em;
+  margin-left: 0.3em;
+  margin-bottom: 0.3em;
+  justify-self: center;
+  background-color: #f7d8ce;
+  box-shadow: 0 0 0.6em #000000;
+  border-color: #000000;
+}
+
 .space_vertical {
   margin-bottom: 1em;
 }
