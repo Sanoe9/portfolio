@@ -16,9 +16,9 @@ function Projects() {
                         <img className= {`${project.name}_gif`} alt="Demo" src={`./${project.name}.gif`} />
                     </div>
                     <div className="two_flex">
-                        <h5>
+                        <div className="project_name">
                             {project.name}
-                        </h5>
+                        </div>
                         <div className="space_vertical">
                             {project.description}
                         </div>

@@ -70,3 +70,9 @@
 .rubrique {
   letter-spacing: 3px;
 }
+
+.project_name {
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: "Gothic A1", sans-serif;
+}
