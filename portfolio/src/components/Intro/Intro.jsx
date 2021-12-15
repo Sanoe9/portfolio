@@ -3,7 +3,6 @@ import intro from '../../data/introduction.js';
 import './Intro.css';
 
 function Intro() {
-    console.log(intro.introPic)
     return (
         <div id="intro" >
             <div className="one_flex">

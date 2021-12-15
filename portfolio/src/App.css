@@ -46,6 +46,9 @@
   background-color: #f7d8ce;
   box-shadow: 0 0 0.6em #000000;
   border-color: #000000;
+
+  outline: none;
+  border-width: 0.05em;
 }
 
 .space_vertical {
